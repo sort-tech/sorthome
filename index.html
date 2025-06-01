@@ -1,7 +1,232 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>sortInc. - AI Innovators</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style>
+      .gradient-text {
+        background: linear-gradient(to right, #0c7ff2, #39a0ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .hero-gradient {
+        background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%);
+      }
+    </style>
+</head>
+<body class="bg-white">
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200 px-6 md:px-10 py-4">
+<div class="flex items-center gap-3">
+<div class="size-8 text-[#0c7ff2]">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-gray-900 text-xl font-bold leading-tight tracking-tighter">sortInc.</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-6">
+<a class="text-gray-700 hover:text-[#0c7ff2] text-sm font-medium leading-normal transition-colors" href="#">Services</a>
+<a class="text-gray-700 hover:text-[#0c7ff2] text-sm font-medium leading-normal transition-colors" href="#">Case Studies</a>
+<a class="text-gray-700 hover:text-[#0c7ff2] text-sm font-medium leading-normal transition-colors" href="#">Blog</a>
+<a class="text-gray-700 hover:text-[#0c7ff2] text-sm font-medium leading-normal transition-colors" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-[#0c7ff2] hover:bg-blue-600 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Get Started</span>
+</button>
+</nav>
+<div class="md:hidden">
+<button class="text-gray-700 hover:text-[#0c7ff2] p-2">
+<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<line x1="3" x2="21" y1="12" y2="12"></line>
+<line x1="3" x2="21" y1="6" y2="6"></line>
+<line x1="3" x2="21" y1="18" y2="18"></line>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-1 flex-col">
+<section class="relative">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat hero-gradient" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAUtWY7SLRoARAgj1I-VB-78rymk3vt3vLpreYQuX1TYPk7eHEaWlfbMjRQ0NzZt0HMqegj4P8LdABkjPGJ4mQc8om5XQ1frqssE2pEi8F8m3kuEQOKuSfEUWYXrPzPTixt7S7iNPoxmgDTSq4AZmVEzjsqWicQ4PXKZ3xr6_QI_qA3fhuVz_pVMFWnGZudl11u3PaFTjlxMlviOfzmULgEcz5rbZQBd_OCo1oNWCpGWWhND7L--ElOGtFNwXmMqQv4o_SYz5xwJf8");'></div>
+<div class="relative px-6 md:px-10 lg:px-40 py-24 md:py-32 lg:py-48 flex justify-center text-center">
+<div class="max-w-3xl">
+<h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tighter">
+                  Empowering Businesses with <span class="gradient-text">Cutting-Edge AI</span> Solutions from sortInc.
+                </h1>
+<p class="mt-6 text-gray-200 text-base sm:text-lg md:text-xl font-normal leading-relaxed">
+                  sortInc. specializes in developing custom AI solutions, including chatbots, LLMs, vector databases, RAG configurations, and data analysis, tailored to meet your unique
+                  business needs.
+                </p>
+<button class="mt-10 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 sm:h-14 sm:px-8 bg-[#0c7ff2] hover:bg-blue-600 transition-colors text-white text-base sm:text-lg font-bold leading-normal tracking-[0.015em] mx-auto">
+<span class="truncate">Explore Our Services</span>
+</button>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-10 lg:px-40 py-16 md:py-24 bg-gray-50">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="text-gray-900 text-3xl sm:text-4xl font-bold leading-tight tracking-tighter">Our Core Services at sortInc.</h2>
+<p class="mt-4 text-gray-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
+                  At sortInc., we offer a comprehensive suite of AI development services designed to transform your business operations and drive growth.
+                </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+<div class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="text-[#0c7ff2] h-8 w-8">
+<svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128ZM84,116a12,12,0,1,0,12,12A12,12,0,0,0,84,116Zm88,0a12,12,0,1,0,12,12A12,12,0,0,0,172,116Zm60,12A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.53a7.85,7.85,0,0,1,2.53-.42,8,8,0,0,1,4,1.08A88,88,0,0,0,216,128Z"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 text-lg font-bold leading-tight">Chatbot Development</h3>
+<p class="text-gray-600 text-sm font-normal leading-normal">Build intelligent chatbots with sortInc. that enhance customer engagement and automate support.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="text-[#0c7ff2] h-8 w-8">
+<svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 text-lg font-bold leading-tight">Custom LLM Development</h3>
+<p class="text-gray-600 text-sm font-normal leading-normal">sortInc. develops custom large language models tailored to your specific industry and use cases.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="text-[#0c7ff2] h-8 w-8">
+<svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 text-lg font-bold leading-tight">Vector Database Solutions</h3>
+<p class="text-gray-600 text-sm font-normal leading-normal">sortInc. implements vector databases for efficient data retrieval and similarity search.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="text-[#0c7ff2] h-8 w-8">
+<svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 text-lg font-bold leading-tight">Data Analysis &amp; Insights</h3>
+<p class="text-gray-600 text-sm font-normal leading-normal">Gain actionable insights with sortInc.'s advanced analytics and reporting tools.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-10 lg:px-40 py-16 md:py-24">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="text-gray-900 text-3xl sm:text-4xl font-bold leading-tight tracking-tighter">sortInc. Client Success Stories</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+<div class="flex flex-col gap-4 rounded-lg overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-[16/10] bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPk9SNt3joGeTrWzOxTI0Pdlba25l3VvTMKBlyIJ8ffjBThyFAxoeQ2z9jBMFVH29b4hQiOhbw4oTiVolajEdC7CRSLjYjGQE7phWakhRRppBOMFCuH2BxztgWYU0XSLLMAWb1vEgX4vC-ROYviHVCoGMkGBQWxp5LcBY5wuylbD8BaAjkiT4N8tKJaAZ5mMa8cz1szNHhJWMnpaBcP1K5p-NcpNKwYSpYqhjuNI6q208bXEddIbGOksZilT1N-_hQUEi6_OT1cik");'></div>
+<div class="p-6">
+<h3 class="text-gray-900 text-lg font-semibold leading-snug">Revolutionizing Customer Service for Retailers</h3>
+<p class="mt-2 text-gray-600 text-sm font-normal leading-normal">
+                      sortInc. developed an AI-powered chatbot for a leading retailer, resulting in a 30% reduction in customer service costs and a 20% increase in customer satisfaction.
+                    </p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-[16/10] bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCftUkVYXxFI3gaRUp5oGseoynF_50wjVjcc7mP9-1EMwWRuSPyTZmjZMKvYbawl1G1F5CqWh7MdEPeMXN0gQK09BWe5ScdNVJy7flrrs0PWynEv9PFy0tWnsBs9-FhfV15RvGw_79bfhWvs22dSPkINgifI1wRdFwjnes8Ykyc1vAAa-A7YioY2PbdcuGs6ToG6QboPdcwoDAr4edDzJLP4GnB7MpqSTw65HtlKqgw4zwGetxAkEoEnmDyJom3bFSgV2ZKhxiAXEM");'></div>
+<div class="p-6">
+<h3 class="text-gray-900 text-lg font-semibold leading-snug">Enhancing Operational Efficiency in Manufacturing</h3>
+<p class="mt-2 text-gray-600 text-sm font-normal leading-normal">
+                      sortInc.'s custom LLM solution helped a manufacturing company optimize their production processes, leading to a 15% increase in efficiency and a 10% reduction in
+                      waste.
+                    </p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-[16/10] bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTvAb3FumNzvBreytruOUGojD6rr2bJZTibHRogTGu_1I6ybN3g066ZlY9Oo_e-nX6f55gFKSaevaEEJMB_kllzanntIUEm9DlyFQjisU1O_aaSzvibZtoYx7Q2li1sxluEZMODZKO8A6d4ntIOvBwQBiSbnr3mg5kbvDXTsDWRtxfN9NWaHqXHdpzaIfWQa5HpfSzLBMslwODE9U2akXHLHZmz9_l9eQB563eSBh419pVgeZj3xsfUmEVwXB2ZLrRzpYQ2Y3TrL0");'></div>
+<div class="p-6">
+<h3 class="text-gray-900 text-lg font-semibold leading-snug">Improving Customer Engagement in E-commerce</h3>
+<p class="mt-2 text-gray-600 text-sm font-normal leading-normal">
+                      sortInc. implemented a personalized recommendation system for an e-commerce platform, resulting in a 25% increase in click-through rates and a 15% boost in sales.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-10 lg:px-40 py-16 md:py-24 bg-gray-50">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="text-gray-900 text-3xl sm:text-4xl font-bold leading-tight tracking-tighter">Latest News &amp; Insights from sortInc.</h2>
+</div>
+<div class="space-y-8 md:space-y-12">
+<div class="flex flex-col md:flex-row items-stretch justify-between gap-6 md:gap-8 p-6 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex flex-col gap-3 flex-1 md:order-2">
+<p class="text-[#0c7ff2] text-sm font-semibold leading-normal">AI Development</p>
+<h3 class="text-gray-900 text-xl font-bold leading-tight">The Future of AI: Trends and Innovations</h3>
+<p class="text-gray-600 text-sm font-normal leading-normal">
+                      Explore the latest trends and innovations in AI development with sortInc., including advancements in LLMs, vector databases, and chatbot technologies.
+                    </p>
+<a class="inline-flex items-center gap-2 mt-auto text-[#0c7ff2] hover:text-blue-600 text-sm font-medium leading-normal w-fit group" href="#">
+<span>Read More</span>
+<svg class="transition-transform group-hover:translate-x-1" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" fill-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+<div class="w-full md:w-2/5 aspect-video bg-cover bg-center rounded-lg md:order-1" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBo9b0mty2_is2EJcEiiCnYbRYue6_nIrxBKe1xL4VK7nOblwXozNsKhKbBd_yxX57KUvCvic1PD_Qv01-puaMJV-JZCGg5HVSQzNzllxoYtCWHXQSsqN_Xawy1AfxPna2jikxUnoffjVQhFFwka_lrdlVoMoqZje3SJpYIknV_LgrEZmv5nk9oOYjTk3yFv6_btGMGvmamey5vi_NrQyUyRgPvx8JxTH7sYf51U9LKwkJm7lhIK17eFiCjy_heaDLi7WKz3phsFRY");'></div>
+</div>
+<div class="flex flex-col md:flex-row items-stretch justify-between gap-6 md:gap-8 p-6 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex flex-col gap-3 flex-1">
+<p class="text-[#0c7ff2] text-sm font-semibold leading-normal">Case Study</p>
+<h3 class="text-gray-900 text-xl font-bold leading-tight">How sortInc. Transformed a Financial Institution</h3>
+<p class="text-gray-600 text-sm font-normal leading-normal">
+                      Learn how sortInc. helped a financial institution leverage AI to improve fraud detection, enhance customer service, and streamline operations.
+                    </p>
+<a class="inline-flex items-center gap-2 mt-auto text-[#0c7ff2] hover:text-blue-600 text-sm font-medium leading-normal w-fit group" href="#">
+<span>Read More</span>
+<svg class="transition-transform group-hover:translate-x-1" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" fill-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+<div class="w-full md:w-2/5 aspect-video bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA5UtEsZHFWr1E-8NTlF2f1fPe1Ds-7S3FhARGvmi30R_k8oOIyP5OL2iOPzYn3uJUtg5YYrY-8rXwRyknYKOr2ywmwYepy_Uc9db7hPpJqRpfOJrimVFTCdXHXiM1DXxeW5SMZJEWGGWv271stmffObtT1QJdTEoeFqspHr_00JWf2vj5j8780Vjx9z16aupL30TFGkKpDeUB-t9ewWFgFumMjB-7RQmIUioIjmUObtX7GD5VBehOlpOA4qu3lfFt-gt-H6E2Ui0s");'></div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-10 lg:px-40 py-16 md:py-24 text-center bg-gradient-to-br from-[#0c7ff2] to-blue-600">
+<div class="max-w-3xl mx-auto">
+<h2 class="text-white text-3xl sm:text-4xl font-bold leading-tight tracking-tighter">Ready to Transform Your Business with AI by sortInc.?</h2>
+<button class="mt-8 md:mt-10 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 sm:h-14 sm:px-8 bg-white hover:bg-gray-100 transition-colors text-[#0c7ff2] text-base sm:text-lg font-bold leading-normal tracking-[0.015em] mx-auto">
+<span class="truncate">Get Started with sortInc.</span>
+</button>
+</div>
+</section>
+</main>
+<footer class="bg-gray-800 text-gray-400">
+<div class="max-w-5xl mx-auto px-6 md:px-10 lg:px-40 py-12 md:py-16">
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-8">
+<a class="hover:text-white transition-colors text-sm" href="#">Services</a>
+<a class="hover:text-white transition-colors text-sm" href="#">Case Studies</a>
+<a class="hover:text-white transition-colors text-sm" href="#">Blog</a>
+<a class="hover:text-white transition-colors text-sm" href="#">Contact</a>
+<a class="hover:text-white transition-colors text-sm" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors text-sm" href="#">Terms of Service</a>
+</div>
+<div class="border-t border-gray-700 pt-8 text-center md:text-left">
+<p class="text-sm">© 2024 sortInc. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
